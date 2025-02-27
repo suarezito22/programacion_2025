@@ -1,0 +1,33 @@
+* {
+    text-decoration: overline;
+}
+
+input[type=ejemplo]
+{
+
+    color: blue;
+}
+h1
+{
+font-size: 58px;
+font-weight: 900;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: oblique;
+text-align: center;
+text-decoration: underline;
+text-transform: uppercase;
+text-decoration-color: blue;
+text-decoration-style: blue;
+text-shadow: 1px 10px #898989;
+text-indent: 5px;
+letter-spacing: 5px;
+word-spacing: 10px;
+word-wrap: break-word;
+
+border-width: 3px;
+border-color: #898989;
+border-style: dashed;
+border: 5px solid red;
+
+}
+
