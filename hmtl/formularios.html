@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    
+    <form action="#" method="get"> 
+        <fieldset>
+            <legend>Información general</legend>
+            <div>
+                <br>
+                <label for="nombre">Nombres:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo"
+                max="60" value="" required>
+            </div>
+            <div>
+                <br>
+                <label for="">Contraseña</label>
+                <input type="password" name="pwd">
+            </div>
+            <div>
+                <br>
+                <label for="">Email</label>
+                <input type="email" name="correo">
+            </div>
+            <div>
+                <br>
+                <label for="">Edad</label>
+                <input type="number" name="edad" value="18" max="128">
+            </div>
+            <div>
+                <br>
+                <label for="">Fecha de cumpleaños</label>
+                <input type="date" name="Cumpleaños">
+                <br><br>
+                <input type="color" name="colorfavorito">
+            </div>
+            <div>
+                <br> 
+                <label for="archivo"></label>
+                <input type="file" name="archivo">
+            </div>
+            <div>
+                <br>
+                <label>Género:</label><br>
+                <input type="radio" id="masculino" name="genero" value="masculino"> <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="genero" value="femenino"> <label for="femenino">Femenino</label><br>
+                <input type="radio" id="otro" name="genero" value="otro"> <label for="otro">Otro</label><br>
+            </div>
+
+            <div>
+                <br>
+                <label>Pasatiempos:</label><br>
+                <input type="checkbox" id="lectura" name="pasatiempos" value="lectura"> <label for="lectura">Lectura</label><br>
+                <input type="checkbox" id="deporte" name="pasatiempos" value="deporte"> <label for="deporte">Deporte</label><br>
+                <input type="checkbox" id="musica" name="pasatiempos" value="musica"> <label for="musica">Música</label><br>
+                <input type="checkbox" id="videojuegos" name="pasatiempos" value="videojuegos"> <label for="videojuegos">Videojuegos</label><br>
+            </div>
+
+            <div>
+                <br>
+                <label for="ciudad">Ciudad:</label>
+                <select name="ciudad" id="ciudad">
+                    <option value="1">Tunja</option>
+                    <option value="2">Duitama</option>
+                    <option value="3">Sogamoso</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+                <br>
+                <label for="">Descripción</label>
+                <textarea name="desc" cols="12" rows="6"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="button" value="boton">
+                <input type="reset" value="borrar">
+                <input type="submit" value="enviar">
+                <br>    
+                
+
+                
+               </div>
+    
+        </fieldset>
+    </form>
+</body>
+
+
+
+</html>
